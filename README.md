@@ -27,7 +27,7 @@
 9. use `sudo docker compose build` & `sudo docker compose up` again
 10. we can use `sudo docker compose up -d` to make the server run in the background and we can use the terminal.
 11. use `sudo docker compose run web python manage.py migrate` to migrate to the container 
-12. user ``sudo docker compose stop`& `sudo docker compose start` to stop the container w/o losing the database.
+12. user `sudo docker compose stop`& `sudo docker compose start` to stop the container w/o losing the database.
 
 
 

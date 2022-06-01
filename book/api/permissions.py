@@ -1,3 +1,4 @@
+from pickle import FALSE
 from rest_framework import permissions
 
 
@@ -6,4 +7,4 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
         if request.method in permissions.SAFE_METHODS:
             return True
 
-        return obj.reveiwer == request.user
+        return obj.reviewer == request.user
